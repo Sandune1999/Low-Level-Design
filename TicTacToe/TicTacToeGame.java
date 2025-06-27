@@ -49,6 +49,7 @@ public class TicTacToeGame {
         return instance;
     }
 
+    @SuppressWarnings("resource")
     public String startGame() {
         boolean noWinner = true;
 
@@ -63,6 +64,7 @@ public class TicTacToeGame {
             }
 
             System.out.println("Player: " + playerTurn.getName() + " Enter row & column for putting the piece:- " + playerTurn.getPlayingPiece().getPieceType());
+            
             Scanner inputScanner = new Scanner(System.in);
             String s = inputScanner.nextLine();
             String[] values = s.split(",");
