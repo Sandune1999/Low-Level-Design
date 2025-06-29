@@ -1,0 +1,50 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "ElevatorDesign.Main",
+      "vmArgs": "-Dfile.encoding=UTF-8",
+      "projectName": "SystemDesign_f894bb66"
+    },
+    {
+      "type": "java",
+      "name": "Store",
+      "request": "launch",
+      "mainClass": "ObserverDesignPattern.Store",
+      "projectName": "SystemDesign_f894bb66"
+    },
+    {
+      "type": "java",
+      "name": "ParkingLotManager",
+      "request": "launch",
+      "mainClass": "ParkingLotProblem.ParkingLotManager",
+      "projectName": "SystemDesign_f894bb66"
+    },
+    {
+      "type": "java",
+      "name": "Main(1)",
+      "request": "launch",
+      "mainClass": "StrategyDesignPattern.Main",
+      "projectName": "SystemDesign_f894bb66"
+    },
+    {
+      "type": "java",
+      "name": "Main(2)",
+      "request": "launch",
+      "mainClass": "TicTacToe.Main",
+      "projectName": "SystemDesign_f894bb66"
+    }
+  ]
+}

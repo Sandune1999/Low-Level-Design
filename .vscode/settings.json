@@ -1,0 +1,5 @@
+{
+  "java.compile.nullAnalysis.mode": "disabled",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, monospace",
+  "editor.rulers": []
+}
